@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: 0;
+
 }
+
 .header {
-    background-color: rgba(166, 252, 252, 0.89);
-}
+    background-color: rgba(166, 252, 252, 0.89);}
+
 body{
     background: #4CA1AF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
