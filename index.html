@@ -14,14 +14,41 @@
     <div class="container"><!--CONTENEDOR ENCABEZADO Y CARRUSEL-->
         <div class="header"><!--DIV ENCABEZADO-->
             <img src="IMAGEN/LOGO PERFIL-STENCILMANIA.png" height="80px" ><!--imagen logo-->
-            <nav class="navegador"><!--BARRA DE MENUES-->
-                <ul class="menu">
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">QUIENES SOMOS</a></li>
-                    <li><a href="#">CATEGORIAS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                </ul>
-            </nav>               
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">QUIENES SOMOS</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          CATEGORIAS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">FLORES Y HOJAS</a></li>
+                          <li><a class="dropdown-item" href="#">ANIMALES</a></li>
+                          <li><a class="dropdown-item" href="#">DECO</a></li>
+                          <li><a class="dropdown-item" href="#">RELIGIOSOS</a></li>
+                          <li><a class="dropdown-item" href="#">FRASES</a></li>
+                          <li><a class="dropdown-item" href="#">VINTAGE</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </div>
          <!--CARRUSEL DE IMAGENES-->
          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -60,35 +87,46 @@
             </button>
           </div>
     </div>
-    <section class="CATALOGO"><!--SECCION DE CATEGORIAS-->
-        <div class="categorias">
+    <section class="seccion 1"><!--SECCION QUIENES SOMOS-->
+        <H2 class="quienes somos">
+            ¿QUIENES SOMOS?
+        </H2>
+        <p>
+            Somos creadores de miles de modelos de stencil personalizados, permitiendote desarrollar aun mas tu imaginación.
+            En STENCILMANIA hacemos que tus ideas sean mas fácil de lograr.
+            Nos destacamos por la excelente calidad del material de construcción y la gran calidad de atencion
+            Nacimos en el año 2019 como un emprendimiento casero y a medida de los años fuimos perfeccionando nuestras tecnicas
+        </p>
+    </section>
+    <section class="seccion 2"><!--SECCION DE CATEGORIAS-->
+        <div class="catalogos">
             <div class="col">
-                <h2 class="titulo de categorias">FLORES Y HOJAS</h2>
+                <h3 class="titulo de categorias">FLORES Y HOJAS</h3>
                 <img src="IMAGEN/HOJAS.jpg" height="250px" alt="">
                 <p></p>
             </div>
             <div class="col">
-                <h2 class="titulo de categorias">ANIMALES</h2>
+                <h3 class="titulo de categorias">ANIMALES</h3>
                 <img src="IMAGEN/ANIMALES.jpg" height="250px" alt="">
                 <p></p>
             </div>
             <div class="col">
-                <h2 class="titulo de categorias">DECO</h2>
+                <h3 class="titulo de categorias">DECO</h3>
                 <img src="IMAGEN/DECO.jpg" height="250px" alt="">
                 <p></p>
             </div>
             <div class="col">
-                <h2 class="titulo de categorias">RELIGIOSOS</h2>
+                <h3 class="titulo de categorias">RELIGIOSOS</h3>
                 <img src="IMAGEN/RELIGIOSOS.jpg" height="250px" alt="">
                 <p></p>
             </div>
             <div class="col">
-                <h2 class="titulo de categorias"></h2>
+                <h3 class="titulo de categorias">FRASES</h3>
                 <img src="IMAGEN/FRASE.jpg" height="250px" alt="">
                 <p></p>
             </div>
             <div class="col">
-                <h2 class="titulo de categorias"></h2>
+                <h3 class="titulo de categorias">VINTAGE</h3>
                 <img src="IMAGEN/VINTAGE.jpg" height="250px" alt="">
                 <p></p>
             </div>
