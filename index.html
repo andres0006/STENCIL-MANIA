@@ -15,9 +15,10 @@
     padding-right: 0;
     margin-left: 0; 
     margin-right: 0;"><!--CONTENEDOR ENCABEZADO Y CARRUSEL-->
+        <a name="inicio"></a><!--enlace de navegacion interno -->
         <div class="header"><!--DIV ENCABEZADO-->
             <img src="IMAGEN/LOGO PERFIL-STENCILMANIA.png" height="80px" ><!--imagen logo-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"><!--barra de navegacion-->
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,10 +27,10 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">QUIENES SOMOS</a>
+                        <a class="nav-link" href="#quienes somos">QUIENES SOMOS</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,11 +45,9 @@
                           <li><a class="dropdown-item" href="#">VINTAGE</a></li>
                         </ul>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a>
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                   </div>
                 </div>
               </nav>
@@ -90,6 +89,7 @@
             </button>
           </div>
     </div>
+    <a name="quienes somos"></a><!--enlace de navegacion interno -->
     <section class="seccion 1"><!--SECCION QUIENES SOMOS-->
         <H2 class="quienes somos">
             ¿QUIENES SOMOS?
@@ -101,9 +101,8 @@
             Nacimos en el año 2019 como un emprendimiento casero y a medida de los años fuimos perfeccionando nuestras tecnicas
         </p>
     </section>
-    <section class="seccion 2"><!--SECCION DE CATEGORIAS-->
-        <H2>CATEGORIAS</H2>
-        <div class="catalogos">
+    <H2>CATEGORIAS</H2>
+    <div class="seccion2"><!--SECCION DE CATEGORIAS-->
             <div class="col">
                 <A href="flores y hojas.html"><h3 class="titulo de categorias">FLORES Y HOJAS</h3></A>
                 <A href="flores y hojas.html"><img src="IMAGEN/HOJAS.jpg" height="250px" alt=""></A>
@@ -111,6 +110,7 @@
             <div class="col">
                  <A href="animales.html"><h3 class="titulo de categorias">ANIMALES</h3></A>
                 <A href="animales.html"><img src="IMAGEN/ANIMALES.jpg" height="250px" alt=""></A>
+            </div>
             <div class="col">    
                  <A href="deco.html"><h3 class="titulo de categorias">DECO</h3></A>
                 <A href="deco.html"><img src="IMAGEN/DECO.jpg" height="250px" alt=""></A> 
@@ -129,33 +129,31 @@
 
             </div>
             
-    </section>
-    
+    </div>
+    <a name="contacto"></a><!--enlace de navegacion interno -->
     <footer><!--pie de pagina-->
-        <ul>
-            <li><h4>STENCILMANIA</h4>
-                <ul>
-                    <li>Av. Fragata Sarmiento 786</li>
-                    <li>(0297)5149847</li>
-                    <li>eduardo_2056@yahoo.com</li>
-                </li>
-            </ul>
-            <li>
+            <div class="pie">
+
+                <h4>STENCILMANIA</h4>
+                    <ul>
+                        <li>Av. Fragata Sarmiento 786</li>
+                        <li>(0297)5149847</li>
+                        <li>eduardo_2056@yahoo.com</li>
+                    </ul>
+            </div>
+            <div class="pie">
                 <h4>UBICACION</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5549.44753411085!2d-67.56415870000004!3d-45.936820499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1627848877262!5m2!1ses!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </li>
-
-            <li>
+            </div>
+            <div class="pie">
                 <h4>REDES SOCIALES</h4>
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/stencilmania.chubut/"><img src="IMAGEN/logo facebook.png" height="35px"></a>
-                        <a href="https://www.instagram.com/stencilmania.chubut/"><img src="IMAGEN/logo instagram.png" height="40px"></a>
-                        <a href="https://www.instagram.com/stencilmania.chubut/"><img src="IMAGEN/logo mercado libre1.png" height="55px"></a>
+                        <a href="https://www.facebook.com/stencilmania.chubut/" target="blank"><img src="IMAGEN/logo facebook.png" height="35px"></a>
+                        <a href="https://www.instagram.com/stencilmania.chubut/"target="blank"><img src="IMAGEN/logo instagram.png" height="40px"></a>
+                        <a href="https://stencilmania.mercadoshops.com.ar"target="blank"><img src="IMAGEN/logo mercado libre1.png" height="55px"></a>
                     </li>
                 </ul>
-            </li>
-        </ul>
     </footer>
     
 </body>
