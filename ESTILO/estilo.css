@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: 0;
 }
+
+
 @media screen and (max-width:425px) {
     .seccion2{
     display:flex;
@@ -13,24 +15,71 @@
     }
 
     }
-    
+.header{
+    background-color:#EEF8FF;
+    display: flex;
+    flex-wrap: wrap;
+}      
+.navbar{
+    background-color:tomato;
+}   
+.seccion1{
+    background-color: #D1F5FF;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
-.header {
-    background-color: rgba(166, 252, 252, 0.89);
-    width: 100vh;
-}
-    
-
-body{
-    background: #4CA1AF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+.cuerpo{
+   padding:10%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 23px;
+   text-align: center;
 }
 .seccion2{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #78E3FD;
+}
+.titucate col{
+    text-decoration:none ;
+}
+.secciones{
+    display:inline-block;
+    padding:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+.part2{
+    display: flex;
+    align-content: center;
+}
+h2{
+    text-align: center;
+}
+  
+.col{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 15px;
+}
+.cat{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 25px;
+    color: ivory;
+}
+.seccion21{
     display:flex;
     flex-wrap: wrap;
-    flex-direction: row;
-
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 10px;
 }
 footer{
     margin-top: 10px;
@@ -41,4 +90,7 @@ footer{
 }
 .pie{
     padding:20px
+}
+h2{
+    font-family:cursive;
 }
