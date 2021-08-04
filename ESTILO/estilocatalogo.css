@@ -3,11 +3,36 @@
     margin: 0;
     box-sizing: 0;
 }
-.img{
+
+
+header{
+    background-color:#EEF8FF;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;  
+    align-items: center;
+}
+.logo{
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+.img{
+    background-color:#DFE0E2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: ;
+    justify-content: center;
+  
 }
 .imgindividual{
     padding: 40px;
+    
+}
+@media (max-width:425px) {
+    .imgindividual{
+        width: 100%;
+    }
 }

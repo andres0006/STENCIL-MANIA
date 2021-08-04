@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width:425px) {
+@media (max-width:425px) {
     .seccion2{
     display:flex;
     flex-wrap: wrap;
@@ -16,20 +16,21 @@
 @media (max-width: 425px) {
     .carousel-inner{
         height: 200px;
-        width: 320px;
+        width: 100%;
     }
     }
 @media (max-width: 425px) {
     .img{
         height: 200px;
-        width: 320px; 
+        width: 100%; 
 
     }}
 .header{
     background-color:#EEF8FF;
     display: flex;
     flex-wrap: wrap;
-}         
+} 
+       
 .seccion1{
     background-color: #D1F5FF;
     padding-top: 80px;
@@ -102,6 +103,9 @@ footer{
     line-height: 70px;
     font-weight: 600;
 }
+.redes {
+    padding: 8px;
+}  
 .pie{
     padding:20px
 }
